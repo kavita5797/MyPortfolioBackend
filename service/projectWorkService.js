@@ -1,4 +1,4 @@
-var ProjectWork = require('../model/ProjectWork');
+var ProjectWork = require('../model/projectWork');
 async function addProjectWork(data) {
     console.log(data)
     await ProjectWork.create(data, function (err, projectWork) {

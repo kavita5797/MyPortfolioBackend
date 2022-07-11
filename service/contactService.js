@@ -1,4 +1,4 @@
-var Contact = require('../model/Contact');
+var Contact = require('../model/contact');
 async function addContact(data) {
     console.log(data)
     await Contact.create(data, function (err, contact) {
