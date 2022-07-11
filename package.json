@@ -2,6 +2,7 @@
   "name": "example-app",
   "description": "a really cool app",
   "version": "1.0.0",
+  "main": "app.js",
   "engines": {
     "node": "16.x"
   },
@@ -21,5 +22,11 @@
     "webpack": "webpack",
     "start": "node app.js",
     "heroku-postbuild": "ng build --prod"
- }
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/kavita5797/MyPortfolioBackend.git"
+},
+"author": "Kavita",
+"license": "ISC"
 }
