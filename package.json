@@ -18,8 +18,6 @@
     "react-toastify": "^9.0.5"
   },
   "scripts": {
-    "postinstall": "npm run webpack",
-    "webpack": "webpack",
     "start": "node app.js",
     "heroku-postbuild": "ng build --prod"
  },
