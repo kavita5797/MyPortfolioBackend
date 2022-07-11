@@ -1,4 +1,10 @@
 {
+  "name": "example-app",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "aws-sdk": "^2.1167.0",
     "bcryptjs": "^2.4.3",
