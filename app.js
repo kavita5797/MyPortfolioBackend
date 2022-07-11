@@ -8,8 +8,8 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 var port = process.env.PORT || 8000;
 var User = require("./model/user");
-var Contact = require('./model/Contact');
-var ProjectWork = require('./model/ProjectWork');
+var Contact = require('./model/contact');
+var ProjectWork = require('./model/projectWork');
 
 var cors = require("cors");
 
