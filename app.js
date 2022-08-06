@@ -113,7 +113,7 @@ app.post("/api/addpersonaldetails", async (req, res) => {
         jobTitle: jobTitle,
       };
       if (personalDetailsService.addPersonalDetails(data)) {
-        res.status(200).send("User's personal details added successfully.");
+        res.status(200).send("User personal details added successfully.");
       } else {
         res.status(500).send("User does not exist.");
       }
@@ -608,7 +608,7 @@ app.get('/api/get_certification/:id', async (req, res) => {
             phone:phone,
     };
     if (contactService.addContact(data)) {
-        res.status(200).send("User's Contact added successfully.");
+        res.status(200).send("User Contact added successfully.");
       } else {
         res.status(500).send("User does not exist.");
       }
@@ -695,7 +695,7 @@ app.get('/api/get_certification/:id', async (req, res) => {
             webLink:webLink,
     };
     if (projectWorkService.addProjectWork(data)) {
-        res.status(200).send("User's project added successfully.");
+        res.status(200).send("User project added successfully.");
       } else {
         res.status(500).send("User does not exist.");
       }
