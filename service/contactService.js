@@ -11,7 +11,6 @@ async function addContact(data) {
     });
 }
 
-
 async function updateContact(email, data) {
     console.log(data.id )
     await Contact.findOneAndUpdate({ 'userId':data.id },data).then(function(err,contact){
